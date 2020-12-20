@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Expense Tracker</title>
+
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<h1>Expense Tracker</h1>
+
+	<h3>Add New Item</h3>
+
+	<div class="section1">
+
+		<label for="note">Note: </label>
+		<input type="text" id="note" placeholder="Enter expense details here"></input>
+		<br>
+
+		<label for="dateOfExpense">Date: </label>
+		<input type="date" id="dateOfExpense"></input>
+
+		<label for="amount">Amount: </label>
+		<input type="number" id="amount" placeholder="Enter expense amount"></input>
+
+		<button id="addNewExpense">Add Expense</button>
+
+	</div>
+
+	<div class="section2">
+		<table id="mainTable">
+			<tbody id="tableBody">
+				<tr>
+					<th>Note</th>
+					<th>Date</th>
+					<th>Amount</th>
+					<th></th>
+				</tr>
+				<tr class="item">
+					<td>Burger</td>
+					<td>11-5-2019</td>
+					<td>500</td>
+					<td><button id="delete">X</button></td>
+				</tr>
+				<tr>
+					<td>Burger</td>
+					<td>11-5-2019</td>
+					<td>500</td>
+					<td><button id="delete">X</button></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<!-- <script type="text/javascript" src="script.js"></script> -->
+
+</body>
+</html>

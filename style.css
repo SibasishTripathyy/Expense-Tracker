@@ -1,0 +1,68 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1, h3 {
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 0.5rem;
+
+}
+
+.section1 {
+
+/*	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;*/
+	width: 70%;
+	/*border: 1px solid black;*/
+	margin: auto;
+
+}
+
+#note {
+	width: 91%;
+	margin-top: 1rem;
+	padding: 0.25rem;
+}
+
+#dateOfExpense {
+	width:40.5%;
+	margin: 0.5rem;
+	padding: 0.1rem;
+}
+
+#amount {
+	width:41.5%;
+	margin: 1rem;
+	padding: 0.25rem;
+}
+
+#addNewExpense {
+	margin-top: 1rem;
+	position: relative;
+	left: 460px;
+	width: 120px;
+	height: 35px;
+	background-color: #15C600;
+	color: white;
+	border-radius: 10px;
+}
+
+.section2 {
+	width: 70%;
+	margin: auto;
+}
+
+#mainTable {
+	width: 100%;
+	margin-top: 2rem;
+	border: 1px solid black;
+	text-align: center;
+}

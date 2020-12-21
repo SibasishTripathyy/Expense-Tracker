@@ -23,6 +23,10 @@ class addItem {
 		td3.innerHTML = newAmount;
 		td4.innerHTML = '<button id="delete">X</button>';
 
+		td4.onclick = () => {
+			tr.remove();
+		}
+
 		newRow.appendChild(tr);
 
 		tr.appendChild(td1);
